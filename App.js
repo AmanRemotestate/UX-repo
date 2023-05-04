@@ -162,6 +162,7 @@ export default function App() {
           <CalcButtons value="2" handleClick={() => onClickHandle(2)} />
           <CalcButtons value="3" handleClick={() => onClickHandle(3)} />
           <CalcButtons value="-" handleClick={() => onClickHandle("-")} />
+          <img src="iamge.jpg" alt="njcjn">
         </div>
         <div className="board-row">
           <CalcButtons value="." handleClick={() => onClickHandle(".")} />
